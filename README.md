@@ -96,12 +96,12 @@ Document rendered: `r params$date_time`
 ## Installation
 
 1. Prepare your R environment:
-a. Make sure you have installed ODBC and SQLite drivers properly ([read here](https://db.rstudio.com/best-practices/drivers/)).
-b. Make sure Pandoc is installed & available to R ([read here](https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md)).
-c. Make sure Tinytex is installed & available to R ([read here](https://yihui.name/tinytex/)).
+    * Make sure you have installed ODBC and SQLite drivers properly ([read here](https://db.rstudio.com/best-practices/drivers/)).
+    * Make sure Pandoc is installed & available to R ([read here](https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md)).
+    * Make sure TinyTex is installed & available to R ([read here](https://yihui.name/tinytex/)).
 2. Clone git repo (e.g. import as an R package in RStudio).
 3. Create R source package.
-4. Deploy R package on Shiny server (please note that this app will currently not work on shinyapps.io, since it requires local data persistance).
+4. Deploy R package on Shiny server (please note that this app will currently not work on shinyapps.io, since it requires local data persistence).
 5. Update your [shiny-server.conf](http://docs.rstudio.com/shiny-server/#host-a-single-application) accordingly.
 6. Make sure that the server user ("shiny" by default) of your Shiny server has sufficient rights to create, delete and modify files in the app directory. Please take a look at the [Shiny server manual](http://docs.rstudio.com/shiny-server/#server-management) for further information.
 
