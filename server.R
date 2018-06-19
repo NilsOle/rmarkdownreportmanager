@@ -1193,7 +1193,6 @@ shinyServer(function(input, output, session) {
           )
           return(F)
         }
-
         rv$UIcomponent_deleteReport <-
           UIcomponent_deleteReport(report = report)
       },
@@ -1222,9 +1221,4 @@ shinyServer(function(input, output, session) {
     )
     task[[action]]()
   })
-
-  output$markdown <- renderUI({
-    HTML(markdown::markdownToHTML(knitr::knit('README.md', quiet = TRUE)))
-  })
-
 })
