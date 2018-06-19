@@ -1,0 +1,64 @@
+#UIcomponent_reportMessage, #UIcomponent_reportOutput {
+border:1px solid black;
+font-size:12px;
+font-style:italic;
+overflow-y:scroll;
+height: 250px;
+background: ghostwhite;
+}
+
+#UIcomponent_editReport,
+#UIcomponent_deleteReport,
+#UIcomponent_deleteDataset,
+#UIcomponent_editDataset,
+#UIcomponent_deleteReportpackage,
+#UIcomponent_editReportpackage {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: #F9F9F9;
+}
+
+#UIcomponent_editReport:empty,
+#UIcomponent_deleteReport:empty,
+#UIcomponent_deleteDataset:empty,
+#UIcomponent_editDataset:empty,
+#UIcomponent_deleteReportpackage:empty,
+#UIcomponent_editReportpackage:empty,
+#dataset_update_name_eval:empty,
+#dataset_update_file_eval:empty,
+#report_create_eval:empty,
+#reportpackage_update_eval:empty,
+#config_eval:empty {
+   visibility: hidden;
+   width:0;
+   height:0;
+   margin:0;
+   padding:0;
+}
+
+#report_delete_id,
+#dataset_delete_id,
+#reportpackage_delete_id,
+#dataset_update_id,
+#reportpackage_update_id {
+  display:none;
+}
+
+#download_placeholder_report,
+#download_placeholder_dataset,
+#download_placeholder_reportpackage {
+  visibility:hidden;
+}
+
+#dataset_update_name_eval,
+#dataset_update_file_eval,
+#report_create_eval,
+#reportpackage_update_eval,
+#config_eval {
+  color: red;
+  background-color: #FFE4E1;
+  border: 1px solid red;
+  padding:5px;
+  margin-bottom:10px;
+}

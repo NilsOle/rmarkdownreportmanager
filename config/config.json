@@ -1,0 +1,11 @@
+{
+  "rights": {
+    "write_datasets": true,
+    "delete_datasets": true,
+    "write_reportpackages": true,
+    "delete_reportpackages": true,
+    "write_reports": true,
+    "delete_reports": true,
+    "update_config": true
+  }
+}

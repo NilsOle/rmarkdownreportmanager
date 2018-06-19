@@ -1,0 +1,30 @@
+Package: rmarkdownreportmanager
+Type: Package
+Title: A file-based Shiny app for managing and generating reproducible Markdown reports
+Version: 0.1.01
+Author: person("Nils", "Glück", role = c("aut", "cre")),
+Maintainer: Nils Glück <info@nilsole.net>
+Description: 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat (>= 2.0.0)
+RoxygenNote: 6.0.1
+Depends:
+    R (>= 3.4.4)
+Imports:
+    digest (>= 0.6.15),
+    dplyr (>= 0.7.5),
+    DT (>= 0.4),
+    jsonlite (>= 1.5),
+    knitr (>= 1.20),
+    R6 (>= 2.2.2),
+    rjson (>= 0.2.15),
+    rmarkdown (>= 1.10),
+    RODBC (>= 1.3-15),
+    RODBCext (>= 0.3.1),
+    RSQLite (>= 2.1.1),
+    shiny (>= 1.1.0),
+    tibble (>= 1.4.2),
+    tinytex (>= 0.5),
+    tools (>= 3.4.4)
