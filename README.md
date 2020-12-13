@@ -97,7 +97,7 @@ Document rendered: `r params$date_time`
 
 1. Prepare your R environment:
     * Make sure you have installed ODBC and SQLite drivers properly ([read here](https://db.rstudio.com/best-practices/drivers/)).
-    * Make sure Pandoc is installed & available to R ([read here](https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md)).
+    * Make sure Pandoc is installed & available to R ([read here](https://pandoc.org/installing.html)).
     * Make sure TinyTex is installed & available to R ([read here](https://yihui.name/tinytex/)).
 2. Clone git repo (e.g. import as an R package in RStudio).
 3. Create R source package.
