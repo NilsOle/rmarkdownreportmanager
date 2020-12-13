@@ -3,7 +3,7 @@
 Generate beautiful, customizable and reproducible Markdown reports. Please note that this app is "beta", but fully functional already. 
 
 Try a simplified live demo here:
-[https://www.nilsglueck.io/rmarkdownreportmanager_demo](https://www.nilsglueck.io/rmarkdownreportmanager_demo)
+[https://www.nilsglueck.io/rmarkdownreportmanager_demo](https://www.nilsole.net/rmarkdownreportmanager_app/index.html)
 
 The live demo is highly restricted. Only report generation and asset downloading are permitted for demo users.
 
